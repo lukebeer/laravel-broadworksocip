@@ -1,0 +1,25 @@
+{
+    "name": "lukebeer/laravel-broadworksocip",
+    "description": "Laravel ServiceProvider for Broadworks OCI-P",
+    "type": "vcs",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Luke Berezynskyj",
+            "email": "mail@luke.beer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OCIPServiceProvider\\": "src/OCIPServiceProvider/"
+        },
+        "classmap": ["src/"]
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:lukebeer/laravel-broadworksocip.git"
+        }
+    ],
+    "minimum-stability": "dev"
+}
